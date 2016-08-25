@@ -34,7 +34,7 @@ $addDefaultReport = true;
 $reports = new \SplQueue();
 
 $version =
-    'Yasca version ' . \Yasca\Scanner::VERSION . "\n" +
+    'Yasca version ' . \Yasca\Scanner::VERSION . "\n" .
     'Copyright (c) 2012 Michael V. Scovetta. See docs/LICENSE for license information.';
 
 $help = <<<"EOT"
